@@ -13,7 +13,7 @@ role :app, "arduino.coryschires.com" # This may be the same as your 'Web' server
 role :db,  "arduino.coryschires.com", :primary => true # This is where Rails migrations will run
 
 # deploy config
-set :deploy_to, "/home/coryandrob/arduino.coryschires.com/current"
+set :deploy_to, "/home/coryandrob/arduino.coryschires.com/"
 set :deploy_via, :export
 
 # additional settings
